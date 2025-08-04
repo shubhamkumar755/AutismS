@@ -254,9 +254,9 @@ For support and questions:
 
 ## 📞 Contact
 
-- **Project Link**: [https://github.com/yourusername/autism-predictor](https://github.com/yourusername/autism-predictor)
-- **Issues**: [https://github.com/yourusername/autism-predictor/issues](https://github.com/yourusername/autism-predictor/issues)
+- **Project Link**: [https://github.com/shob0902/AutismPredictor](https://github.com/shob0902/AutismPredictor)
+- **Issues**: [https://github.com/shob0902/AutismPredictor/issues](https://github.com/shob0902/AutismPredictor/issues)
 
 ---
 
-**Note**: This application is for educational and research purposes. Medical decisions should not be based solely on this tool. Always consult with healthcare professionals for proper diagnosis and treatment. 
+**Note**: This application is for educational and research purposes. Medical decisions should not be based solely on this tool. Always consult with healthcare professionals for proper diagnosis and treatment.
