@@ -91,8 +91,8 @@ body, html, #root, .background {
   transform: translateY(-50%);
   z-index: 0;
   max-height: 60vh;
-  width: 600px;
-  border-radius: 50%;
+  width: 800px;
+  border-radius: 80%;
   object-fit: cover;
   object-position: center;
   margin-bottom: -4px;
@@ -247,6 +247,12 @@ input:focus, select:focus {
     justify-content: flex-start;
     align-items: center;
   }
+  .bogv-gif {
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 600px;
+    max-height: 40vh;
+  }
   .form-container {
     max-width: 90%;
     margin: 1rem 0.5rem 1rem 0.5rem;
@@ -256,9 +262,10 @@ input:focus, select:focus {
     margin-top: 2rem;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 15px;
-    border: 2px solid white;
+    border: none;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4), 0 3px 12px rgba(255, 255, 255, 0.1);
   }
   .title {
     font-size: 1.8rem;
@@ -338,6 +345,12 @@ input:focus, select:focus {
     background: #1f1f1f;
     padding: 0.3rem 1.5rem 0.3rem 1.5rem;
   }
+  .bogv-gif {
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 250px;
+    max-height: 35vh;
+  }
   .form-container {
     max-width: 85%;
     margin: 0.5rem 1rem 0.5rem 1rem;
@@ -347,9 +360,10 @@ input:focus, select:focus {
     margin-top: 1.5rem;
     padding: 1.2rem 1.5rem 1.2rem 1.5rem;
     border-radius: 12px;
-    border: 2px solid white;
+    border: none;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 2px 8px rgba(255, 255, 255, 0.1);
   }
   .title {
     font-size: 1.6rem;
@@ -437,7 +451,7 @@ input:focus, select:focus {
 }
 
 .form-wrapper {
-  border: 2px solid #fff;
+  border: none;
   border-radius: 20px;
   padding: 2rem;
   background: rgba(0, 0, 0, 0.3);
@@ -447,6 +461,7 @@ input:focus, select:focus {
   margin: 2rem auto 0 auto;
   position: relative;
   z-index: 10;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 600px) {

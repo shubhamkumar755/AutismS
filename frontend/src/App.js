@@ -330,14 +330,14 @@ function AutismForm({ goBack }) {
                   <option value="">Select Ethnicity</option>
                   <option value="White-European">White European</option>
                   <option value="Latino">Latino</option>
-                  <option value="Middle Eastern">Middle Eastern</option>
+                  <option value="Middle Eastern ">Middle Eastern</option>
                   <option value="South Asian">South Asian</option>
                   <option value="Asian">Asian</option>
                   <option value="Black">Black</option>
-                  <option value="Mixed">Mixed</option>
                   <option value="Hispanic">Hispanic</option>
                   <option value="Turkish">Turkish</option>
-                  <option value="others">Others</option>
+                  <option value="Others">Others</option>
+                  <option value="Pasifika">Pasifika</option>
                 </select>
               </div>
               <div className="form-group full-width">
@@ -359,9 +359,7 @@ function AutismForm({ goBack }) {
                 <label>Relation:</label>
                 <select name="relation" value={form.relation} onChange={handleChange} required>
                   <option value="">Select</option>
-                  <option value="Parent">Parent</option>
                   <option value="Self">Self</option>
-                  <option value="Relative">Relative</option>
                   <option value="Others">Others</option>
                 </select>
               </div>
