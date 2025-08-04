@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shob0902.github.io/AutismPredictor",
+  "homepage": "https://shob0902.github.io/AutismScope",
   "dependencies": {
     "cra-template-pwa": "2.0.0",
     "react": "^19.1.1",
