@@ -252,11 +252,5 @@ For support and questions:
 - **v1.2.0**: Implemented glassmorphism design and visual effects
 - **v1.3.0**: Enhanced form validation and error handling
 
-## 📞 Contact
-
-- **Project Link**: [https://github.com/shob0902/AutismPredictor](https://github.com/shob0902/AutismPredictor)
-- **Issues**: [https://github.com/shob0902/AutismPredictor/issues](https://github.com/shob0902/AutismPredictor/issues)
-
----
 
 **Note**: This application is for educational and research purposes. Medical decisions should not be based solely on this tool. Always consult with healthcare professionals for proper diagnosis and treatment.
