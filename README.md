@@ -9,7 +9,7 @@ A machine learning-based web application for predicting Autism Spectrum Disorder
 - **User-Friendly Form**: Comprehensive questionnaire covering A1-A10 scores and demographic data
 - **Real-time Results**: Instant prediction results displayed to users
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Visual Effects**: Custom cursor trail effects and animated background elements
+- **Visual Effect**: Custom cursor trail effects and animated background elements
 
 ## 🏗️ Project Structure
 
@@ -40,12 +40,14 @@ autism/
 ## 🛠️ Technology Stack
 
 ### Frontend
+
 - **React.js**: Modern JavaScript library for building user interfaces
 - **CSS3**: Advanced styling with glassmorphism effects and responsive design
 - **HTML5**: Semantic markup structure
 - **Google Fonts**: Poppins font family for typography
 
 ### Backend
+
 - **Flask**: Python web framework for API development
 - **scikit-learn**: Machine learning library for model inference
 - **pandas**: Data manipulation and processing
@@ -53,6 +55,7 @@ autism/
 - **Flask-CORS**: Cross-origin resource sharing support
 
 ### Machine Learning
+
 - **Trained Model**: Pre-trained classifier for ASD prediction
 - **Label Encoders**: Categorical data encoding for model compatibility
 - **Feature Engineering**: Comprehensive feature set including A1-A10 scores
@@ -141,6 +144,7 @@ python app.py      # Start Flask development server
 ## 🎨 Design Features
 
 ### Visual Design
+
 - **Glassmorphism**: Modern glass-like card effects
 - **Responsive Layout**: Adapts to all screen sizes
 - **Custom Animations**: Cursor trail effects and background GIF
@@ -148,6 +152,7 @@ python app.py      # Start Flask development server
 - **Color Scheme**: Dark theme with accent colors
 
 ### User Experience
+
 - **Intuitive Navigation**: Clear landing page and form flow
 - **Form Validation**: Comprehensive input validation
 - **Loading States**: Visual feedback during prediction
@@ -161,11 +166,13 @@ python app.py      # Start Flask development server
 Create `.env` files in respective directories if needed:
 
 **Frontend (.env)**
+
 ```
 REACT_APP_API_URL=http://127.0.0.1:5000
 ```
 
 **Backend (.env)**
+
 ```
 FLASK_ENV=development
 FLASK_DEBUG=True
@@ -174,6 +181,7 @@ FLASK_DEBUG=True
 ### Model Files
 
 Ensure the following files are present in the `backend/` directory:
+
 - `best_model.pkl`: Trained machine learning model
 - `encoders.pkl`: Label encoders for categorical variables
 
@@ -216,6 +224,7 @@ python -m pytest
 The application uses a pre-trained machine learning model that analyzes:
 
 ### Input Features
+
 - **A1-A10 Scores**: Autism assessment questionnaire responses
 - **Demographics**: Age, gender, ethnicity
 - **Medical History**: Jaundice, family autism history
@@ -223,6 +232,7 @@ The application uses a pre-trained machine learning model that analyzes:
 - **Usage Data**: Previous app usage
 
 ### Output
+
 - **Binary Classification**: ASD Positive or ASD Negative
 - **Confidence**: Model prediction confidence score
 
@@ -241,6 +251,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 For support and questions:
+
 - Create an issue in the repository
 - Contact the development team
 - Check the documentation for common issues
@@ -251,6 +262,5 @@ For support and questions:
 - **v1.1.0**: Added responsive design and mobile optimization
 - **v1.2.0**: Implemented glassmorphism design and visual effects
 - **v1.3.0**: Enhanced form validation and error handling
-
 
 **Note**: This application is for educational and research purposes. Medical decisions should not be based solely on this tool. Always consult with healthcare professionals for proper diagnosis and treatment.
