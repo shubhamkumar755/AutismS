@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: autism-backend
+    env: python
+    rootDir: backend
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    plan: free
+
+  - type: web
+    name: autism-frontend
+    env: static
+    rootDir: frontend
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: build
+    plan: free
