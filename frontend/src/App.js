@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
+const API_BASE_URL = "https://autismscope.onrender.com";
 
 const scores = ['A1_Score', 'A2_Score', 'A3_Score', 'A4_Score', 'A5_Score', 'A6_Score', 'A7_Score', 'A8_Score', 'A9_Score', 'A10_Score'];
 const genders = ['m', 'f'];
@@ -191,13 +192,11 @@ function AutismForm({ goBack }) {
         console.warn('Missing or empty fields:', missingFields);
       }
 
-      const response = await fetch('http://127.0.0.1:5000/predict', {
-        method: 'POST',
-        body: formData,
-        headers: {
-          // Don't set Content-Type header - let browser set it for FormData
-        }
-      });
+     const response = await fetch(`${API_BASE_URL}/predict`, {
+  method: 'POST',
+  body: formData,
+});
+
 
       console.log('Response status:', response.status); // Debug log
 
