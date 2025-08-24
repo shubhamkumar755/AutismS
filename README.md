@@ -256,11 +256,5 @@ For support and questions:
 - Contact the development team
 - Check the documentation for common issues
 
-## 🔄 Version History
-
-- **v1.0.0**: Initial release with React frontend and Flask backend
-- **v1.1.0**: Added responsive design and mobile optimization
-- **v1.2.0**: Implemented glassmorphism design and visual effects
-- **v1.3.0**: Enhanced form validation and error handling
 
 **Note**: This application is for educational and research purposes. Medical decisions should not be based solely on this tool. Always consult with healthcare professionals for proper diagnosis and treatment.
