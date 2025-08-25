@@ -1,49 +1,46 @@
 # Autism Predictor
 
-A machine learning-based web application for predicting **Autism Spectrum Disorder (ASD)** using a **React frontend** and **Flask backend**.
+A machine learning-based web application for predicting Autism Spectrum Disorder (ASD) using React frontend and Flask backend.
 
 <div align="center">
-  <a href="https://shob0902.github.io/AutismScope/">
+  <a href="[https://your-live-app-link.com](https://shob0902.github.io/AutismScope/)">
     <img src="Preview.gif" alt="AutismScope Preview" width="500" style="border-radius:45px;"/>
   </a>
 </div>
 
----
-
 ## 🚀 Features
 
-- **Interactive Web Interface** – Modern, responsive React frontend with glassmorphism design  
-- **Machine Learning Prediction** – Flask backend with trained model for ASD prediction  
-- **User-Friendly Form** – Comprehensive questionnaire covering A1–A10 scores and demographic data  
-- **Real-time Results** – Instant prediction displayed to users  
-- **Responsive Design** – Optimized for desktop, tablet, and mobile devices  
-- **Visual Effects** – Custom cursor trail effects and animated background  
-
----
+- *Interactive Web Interface*: Modern, responsive React frontend with glassmorphism design
+- *Machine Learning Prediction*: Flask backend with trained model for ASD prediction
+- *User-Friendly Form*: Comprehensive questionnaire covering A1-A10 scores and demographic data
+- *Real-time Results*: Instant prediction results displayed to users
+- *Responsive Design*: Optimized for desktop, tablet, and mobile devices
+- *Visual Effects*: Custom cursor trail effects and animated background elements
 
 ## 🏗 Project Structure
 
 ```bash
 autism/
-├── frontend/                # React frontend application
+├── frontend/                 # React frontend application
 │   ├── public/
 │   │   ├── index.html       # Main HTML file
 │   │   └── manifest.json    # PWA manifest
 │   ├── src/
-│   │   ├── App.js           # Main React component
-│   │   └── App.css          # Styling and responsive design
-│   └── logo.png             # Custom logo
-├── BOGV.gif                 # Background animation
-├── package.json             # Frontend dependencies
+│   │   ├── App.js          # Main React component
+│   │   ├── App.css         # Styling and responsive design
+│   │   ├── logo.png        # Custom logo
+│   │   └── BOGV.gif        # Background animation
+│   ├── package.json        # Frontend dependencies
+│   └── .gitignore
 ├── backend/                 # Flask backend application
-│   ├── app.py               # Main Flask application
-│   ├── requirements.txt     # Python dependencies
-│   ├── runtime.txt          # Python version specification
-│   ├── Dockerfile           # Docker configuration
-│   ├── best_model.pkl       # Trained ML model
-│   └── encoders.pkl         # Label encoders
-├── .gitignore
-└── README.md                # This file
+│   ├── app.py              # Main Flask application
+│   ├── requirements.txt    # Python dependencies
+│   ├── Dockerfile          # Docker configuration
+│   ├── runtime.txt         # Python version specification
+│   ├── best_model.pkl      # Trained ML model
+│   ├── encoders.pkl        # Label encoders
+│   └── .gitignore
+└── README.md               # This file
 ```
 
 ## 🛠 Technology Stack
@@ -96,10 +93,11 @@ The frontend will be available at http://localhost:3000
 
 ### 3. Backend Setup
 
-bash
+```bash
 cd backend
 pip install -r requirements.txt
 python app.py
+```
 
 
 The backend API will be available at http://127.0.0.1:5000
@@ -126,19 +124,19 @@ The backend API will be available at http://127.0.0.1:5000
 
 #### Frontend Development
 
-bash
+```bash
 cd frontend
 npm start          # Start development server
 npm run build      # Build for production
 npm test           # Run tests
-
+```
 
 #### Backend Development
 
-bash
+```bash
 cd backend
 python app.py      # Start Flask development server
-
+```
 
 #### API Endpoints
 
@@ -190,35 +188,19 @@ Ensure the following files are present in the backend/ directory:
 
 ### Backend Docker
 
-bash
+```bash
 cd backend
 docker build -t autism-backend .
 docker run -p 5000:5000 autism-backend
-
+```
 
 ### Frontend Docker
 
-bash
+```bash
 cd frontend
 docker build -t autism-frontend .
 docker run -p 3000:3000 autism-frontend
-
-
-## 🧪 Testing
-
-### Frontend Testing
-
-bash
-cd frontend
-npm test
-
-
-### Backend Testing
-
-bash
-cd backend
-python -m pytest
-
+```
 
 ## 📊 Model Information
 
