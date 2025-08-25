@@ -1,25 +1,50 @@
 # Autism Predictor
 
-A machine learning-based web application for predicting Autism Spectrum Disorder (ASD) using React frontend and Flask backend.
+A machine learning-based web application for predicting **Autism Spectrum Disorder (ASD)** using a **React frontend** and **Flask backend**.
 
 <div align="center">
-  <a href="[https://your-live-app-link.com](https://shob0902.github.io/AutismScope/)">
+  <a href="https://shob0902.github.io/AutismScope/">
     <img src="Preview.gif" alt="AutismScope Preview" width="500" style="border-radius:45px;"/>
   </a>
 </div>
 
+---
+
 ## 🚀 Features
 
-- *Interactive Web Interface*: Modern, responsive React frontend with glassmorphism design
-- *Machine Learning Prediction*: Flask backend with trained model for ASD prediction
-- *User-Friendly Form*: Comprehensive questionnaire covering A1-A10 scores and demographic data
-- *Real-time Results*: Instant prediction results displayed to users
-- *Responsive Design*: Optimized for desktop, tablet, and mobile devices
-- *Visual Effects*: Custom cursor trail effects and animated background elements
+- **Interactive Web Interface** – Modern, responsive React frontend with glassmorphism design  
+- **Machine Learning Prediction** – Flask backend with trained model for ASD prediction  
+- **User-Friendly Form** – Comprehensive questionnaire covering A1–A10 scores and demographic data  
+- **Real-time Results** – Instant prediction displayed to users  
+- **Responsive Design** – Optimized for desktop, tablet, and mobile devices  
+- **Visual Effects** – Custom cursor trail effects and animated background  
+
+---
 
 ## 🏗 Project Structure
 
-<pre> ```bash autism/ ├── frontend/ # React frontend application │ ├── public/ │ │ ├── index.html # Main HTML file │ │ └── manifest.json # PWA manifest │ ├── src/ │ │ ├── App.js # Main React component │ │ └── App.css # Styling and responsive design │ └── logo.png # Custom logo ├── BOGV.gif # Background animation ├── package.json # Frontend dependencies ├── backend/ # Flask backend application │ ├── app.py # Main Flask application │ ├── requirements.txt # Python dependencies │ ├── runtime.txt # Python version specification │ ├── Dockerfile # Docker configuration │ ├── best_model.pkl # Trained ML model │ └── encoders.pkl # Label encoders ├── .gitignore └── README.md # This file ``` </pre>
+```bash
+autism/
+├── frontend/                # React frontend application
+│   ├── public/
+│   │   ├── index.html       # Main HTML file
+│   │   └── manifest.json    # PWA manifest
+│   ├── src/
+│   │   ├── App.js           # Main React component
+│   │   └── App.css          # Styling and responsive design
+│   └── logo.png             # Custom logo
+├── BOGV.gif                 # Background animation
+├── package.json             # Frontend dependencies
+├── backend/                 # Flask backend application
+│   ├── app.py               # Main Flask application
+│   ├── requirements.txt     # Python dependencies
+│   ├── runtime.txt          # Python version specification
+│   ├── Dockerfile           # Docker configuration
+│   ├── best_model.pkl       # Trained ML model
+│   └── encoders.pkl         # Label encoders
+├── .gitignore
+└── README.md                # This file
+```
 
 ## 🛠 Technology Stack
 
