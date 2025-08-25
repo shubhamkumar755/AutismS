@@ -76,18 +76,18 @@ Before running this application, ensure you have:
 
 ### 1. Clone the Repository
 
-bash
+```bash
 git clone <repository-url>
 cd autism
-
+```
 
 ### 2. Frontend Setup
 
-bash
+```bash
 cd frontend
 npm install
 npm start
-
+```
 
 The frontend will be available at http://localhost:3000
 
