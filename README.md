@@ -19,7 +19,6 @@ A machine learning-based web application for predicting Autism Spectrum Disorder
 
 ## 🏗 Project Structure
 
-
 autism/
 ├── frontend/                 # React frontend application
 │   ├── public/
