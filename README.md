@@ -2,11 +2,11 @@
 
 A machine learning-based web application for predicting Autism Spectrum Disorder (ASD) using React frontend and Flask backend.
 
-<div align="center">
-  <a href="[https://your-live-app-link.com](https://shob0902.github.io/AutismScope/)">
-    <img src="Preview.gif" alt="AutismScope Preview" width="500" style="border-radius:45px;"/>
+<p align="center">
+  <a href="https://shob0902.github.io/AutismScope/">
+    <img src="Preview.gif" alt="AutismScope Preview" width="500"/>
   </a>
-</div>
+</p>
 
 ## 🚀 Features
 
