@@ -4,7 +4,7 @@ A machine learning-based web application for predicting Autism Spectrum Disorder
 
 <p align="center">
   <a href="https://shob0902.github.io/AutismScope/">
-    <img src="Preview.gif" alt="AutismScope Preview" width="500"/>
+    <img src="autism-review.gif" alt="AutismScope Preview" width="500"/>
   </a>
 </p>
 
