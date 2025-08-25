@@ -19,28 +19,7 @@ A machine learning-based web application for predicting Autism Spectrum Disorder
 
 ## 🏗 Project Structure
 
-autism/
-├── frontend/                 # React frontend application
-│   ├── public/
-│   │   ├── index.html       # Main HTML file
-│   │   └── manifest.json    # PWA manifest
-│   ├── src/
-│   │   ├── App.js          # Main React component
-│   │   ├── App.css         # Styling and responsive design
-│   │   ├── logo.png        # Custom logo
-│   │   └── BOGV.gif        # Background animation
-│   ├── package.json        # Frontend dependencies
-│   └── .gitignore
-├── backend/                 # Flask backend application
-│   ├── app.py              # Main Flask application
-│   ├── requirements.txt    # Python dependencies
-│   ├── Dockerfile          # Docker configuration
-│   ├── runtime.txt         # Python version specification
-│   ├── best_model.pkl      # Trained ML model
-│   ├── encoders.pkl        # Label encoders
-│   └── .gitignore
-└── README.md               # This file
-
+<pre> ```bash autism/ ├── frontend/ # React frontend application │ ├── public/ │ │ ├── index.html # Main HTML file │ │ └── manifest.json # PWA manifest │ ├── src/ │ │ ├── App.js # Main React component │ │ └── App.css # Styling and responsive design │ └── logo.png # Custom logo ├── BOGV.gif # Background animation ├── package.json # Frontend dependencies ├── backend/ # Flask backend application │ ├── app.py # Main Flask application │ ├── requirements.txt # Python dependencies │ ├── runtime.txt # Python version specification │ ├── Dockerfile # Docker configuration │ ├── best_model.pkl # Trained ML model │ └── encoders.pkl # Label encoders ├── .gitignore └── README.md # This file ``` </pre>
 
 ## 🛠 Technology Stack
 
